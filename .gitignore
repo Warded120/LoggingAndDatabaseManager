@@ -1,4 +1,4 @@
-*.env
+secretKeys.env
 logs/
 HELP.md
 target/
