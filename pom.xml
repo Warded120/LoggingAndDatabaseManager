@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.log-db-manag</groupId>
     <artifactId>logging-and-database-manager</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>LoggingAndDatabaseManager</name>
     <description>LoggingAndDatabaseManager</description>
     <url/>
@@ -35,7 +35,6 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>Warded120 logging and database manager</name>
             <url>https://maven.pkg.github.com/Warded120/LoggingAndDatabaseManager</url>
         </repository>
     </distributionManagement>
