@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.log-db-manag</groupId>
     <artifactId>logging-and-database-manager</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>LoggingAndDatabaseManager</name>
     <description>LoggingAndDatabaseManager</description>
     <url/>
@@ -98,6 +98,16 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                        <configuration>
+                                <classifier>exec</classifier>
+                        </configuration>
+                    </execution>
+                </executions>
                 <configuration>
                     <excludes>
                         <exclude>
